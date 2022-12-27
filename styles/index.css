@@ -1,0 +1,24 @@
+div.cardcon {
+  box-shadow: -16px 20px 42px -3px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: -16px 20px 42px -3px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: -16px 20px 42px -3px rgba(0, 0, 0, 0.73);
+  transition: 200ms ease-in;
+}
+div.bg-body {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+div.cardcon:hover {
+  box-shadow: -16px 20px 42px -3px rgba(247, 45, 45, 0.73);
+  -webkit-box-shadow: -16px 20px 42px -3px rgba(247, 45, 45, 0.73);
+  -moz-box-shadow: -16px 20px 42px -3px rgba(247, 45, 45, 0.73);
+}
+
+body {
+  background-image: url("../assets/img/cover.jpg");
+  height: 100%;
+  /* Center and scale the image nicely */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
